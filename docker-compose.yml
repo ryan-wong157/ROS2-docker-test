@@ -1,12 +1,12 @@
 services:
     ros2_dev:
         image: ros2_dev_test
-        container_name: ros2_dev_test
+        container_name: ros2_dev_upskill
         build:
             context: .
             dockerfile: Dockerfile
         volumes:
-            - ./:/root/ros2_docker_test
+            - ./:/root/ros2_upskilling_sr
         cap_add:
             - NET_ADMIN
         network_mode: host

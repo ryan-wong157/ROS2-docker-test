@@ -3,7 +3,7 @@
 
     "dockerComposeFile": "../docker-compose.yml",
 
-    "workspaceFolder": "/root/ros2_docker_test",
+    "workspaceFolder": "/root/ros2_upskilling_sr",
 
     "service": "ros2_dev",
 
